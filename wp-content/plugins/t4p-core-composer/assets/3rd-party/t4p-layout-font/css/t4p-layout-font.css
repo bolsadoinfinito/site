@@ -1,0 +1,61 @@
+@font-face {
+	font-family: 't4p-layout-font';
+	src:url('../fonts/t4p-layout-font.eot?gssey9');
+	src:url('../fonts/t4p-layout-font.eot?gssey9#iefix') format('embedded-opentype'),
+		url('../fonts/t4p-layout-font.woff?gssey9') format('truetype'),
+		url('../fonts/t4p-layout-font.ttf?gssey9') format('woff'),
+		url('../fonts/t4p-layout-font.svg?gssey9#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="t4p-layout-"], [class*=" t4p-layout-"] {
+	font-family: 't4p-layout-font';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.jsn-bootstrap3 .t4p-layout-2-2-2-2-2-2:before {
+	content: "\e90a";
+}
+.jsn-bootstrap3 .t4p-layout-3-3-3-3:before {
+	content: "\e909";
+}
+.jsn-bootstrap3 .t4p-layout-3-3-6:before {
+	content: "\e906";
+}
+.jsn-bootstrap3 .t4p-layout-3-6-3:before {
+	content: "\e907";
+}
+.jsn-bootstrap3 .t4p-layout-3-9:before {
+	content: "\e902";
+}
+.jsn-bootstrap3 .t4p-layout-4-4-4:before {
+	content: "\e905";
+}
+.jsn-bootstrap3 .t4p-layout-4-8:before {
+	content: "\e901";
+}
+.jsn-bootstrap3 .t4p-layout-6-3-3:before {
+	content: "\e908";
+}
+.jsn-bootstrap3 .t4p-layout-6-6:before {
+	content: "\e900";
+}
+.jsn-bootstrap3 .t4p-layout-8-4:before {
+	content: "\e903";
+}
+.jsn-bootstrap3 .t4p-layout-9-3:before {
+	content: "\e904";
+}
+.jsn-bootstrap3 .t4p-layout-12:before {
+	content: "\e60b";
+}

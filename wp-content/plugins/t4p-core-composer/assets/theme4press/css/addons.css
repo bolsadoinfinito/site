@@ -1,0 +1,65 @@
+/**
+ * @version	1.0.0
+ * @package	 Theme4Press PageBuilder
+ * @author	 Theme4Press
+ */
+
+/* Override common styles */
+.jsn-master.ui-front {
+	z-index: 999999;
+}
+.jsn-master.ui-front .ui-dialog-titlebar .ui-button {
+	display: none;
+}
+
+.wrap > h2 + p {
+	margin: 0 0 2em;
+}
+
+/* Loading state */
+.t4p-loading {
+	display: inline-block;
+	min-width: 16px;
+	min-height: 16px;
+	background: url(../../3rd-party/bs2/jsn/images/icons-16/icon-16-loading-circle.gif) 0 50% no-repeat !important;
+	color: #333333 !important;
+}
+.modal-footer .t4p-loading,
+.actions .t4p-loading {
+	padding-left: 33px;
+	background-position: 9px 50% !important;
+}
+
+/* Product addons screen */
+#t4p-product-addons .thumbnails {
+	margin: 0;
+}
+#t4p-product-addons .thumbnails .thumbnail {
+	position: relative;
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	margin: 0 15px 15px 0;
+	width: 330px;
+}
+#t4p-product-addons .thumbnails .thumbnail .caption {
+	padding: 5px;
+}
+#t4p-product-addons .thumbnails .thumbnail img {
+	margin: 5px 5px 0;
+	width: 320px;
+	height: 240px;
+}
+#t4p-product-addons .thumbnails .thumbnail .label {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+/* Authentication modal */
+.jsn-master.ui-front .t4p-product-addons-authentication .form-horizontal {
+	margin-top: 10px;
+}
+
+.jsn-master.ui-front .t4p-product-addons-authentication .form-horizontal .control-group .controls label input[type="checkbox"] {
+	vertical-align: text-bottom;
+}

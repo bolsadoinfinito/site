@@ -1,0 +1,223 @@
+/* 
+Theme Name: evolve Plus
+Theme URI: http://theme4press.com/evolve-multipurpose-wordpress-theme/
+Version: 2.7.1
+Description: Multipurpose WordPress theme
+Author: Theme4Press
+Author URI: http://theme4press.com
+Tags: grid-layout, footer-widgets, blog, news, photography, buddypress, two-columns, left-sidebar, right-sidebar, full-width-template, sticky-post, threaded-comments, microformats, post-formats, flexible-header, featured-images, custom-background, custom-colors, custom-header, custom-menu, theme-options, translation-ready
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html  
+Text Domain: evolve
+
+Table of Contents:
+
+I. Evolve components
+      1. General
+         a. Images
+         b. Headings
+         c. Widgets
+         d. Text Elements
+         e. Lists: (ul, ol, dl)
+         f. Tables
+         g. Forms
+         h. [gallery]
+         j. General button style
+      2. Layout
+         a. Body & Wrapper
+         b. Header
+         c. DD Slick
+         d. Footer
+         e. Search
+      3. Home
+         a. Bootstrap Slider
+         b. Four blocks
+         c. Home Content Boxes
+         d. Basic 2 column (content)(aside) fixed layout
+      4. Style
+         a. Infinite Scroll
+         b. reCaptcha
+         c. WPML Plugin style
+         d. Index number pagination
+         e. Links
+         f. Calendar
+         g. Back to Top Button
+         h. Tabs
+         j. Subscribe/Follow Buttons
+         k. Animate
+         l. Tipsy
+         m. Sticky header search box
+      5. Menu Bar
+         a. Menu effect sticky menu
+         b. Mega Menu
+      6. Blog
+         a. Comment
+         b. Comment Reply
+         c. Navigation
+         d. Breadcrumbs
+         e. Slider posts
+      7. bbPress Styling
+      8. Common slider styling 
+         a. Overall Wrapper
+         b. Overall Wrapper Footer
+         c. AnythingSlider viewport window
+         d. AnythingSlider base (original element)
+         e. Navigation arrow text
+         f. Horizontal mode
+         g. Vertical mode
+         h. Fade mode
+         i. Fade mode active page
+         j. Navigation Arrows
+         k. Back arrow
+         l. Forward arrow
+         n. NavigationSize window
+         o. Autoplay Start/Stop buttom
+      9. Woocommerce  
+         a. Woocommerce Pagination
+         b. WooCommerce Menu
+         c. Woocommerce Slider
+      10. Page
+         a. Portfolio
+         b. Form plugin 
+         c. Breadcrumb
+         d. Page title bar
+         e. T4p slider
+         f. Posts
+         g. prettyPhoto
+         h. Shortcodes
+         j. Carousel Shortcode
+      11. Shop   
+         a. Single product
+         b. DD Slick
+      12. FlexSlider 
+         a. FlexSlider Necessary Styles
+         b. Clearfix for the .slides element
+         c. Direction Nav
+         d. Control Nav
+         e. Avoids image jumping
+      13. Meet the team  
+*/
+
+
+
+@charset "UTF-8";
+
+
+/*!==========================================================================
+   Theme Framework
+   ========================================================================== */
+@import "settings.scss";
+
+/*!==========================================================================
+   Vendor components
+   ========================================================================== */
+@import "icomoon";
+
+/*!==========================================================================
+   Evolve components
+   ========================================================================== */
+
+
+
+
+
+		/*!==========================================================================
+		   General
+		   ========================================================================== */
+				@import "general";
+
+
+
+
+
+		/*!==========================================================================
+		   Layout
+		   ========================================================================== */
+				@import "layout";
+
+
+
+
+
+		/*!==========================================================================
+		   Menubar
+		   ========================================================================== */
+				@import "menubar";
+
+
+
+
+
+		/*!==========================================================================
+		   Blog
+		   ========================================================================== */
+				@import "blog";
+
+
+
+
+
+
+		/*!==========================================================================
+		   BBPress
+		   ========================================================================== */
+				@import "bbpress";
+
+
+
+
+
+		/*!==========================================================================
+		   Slider
+		   ========================================================================== */
+				@import "slider";
+
+
+
+
+
+
+		/*!==========================================================================
+		   WooCommerce
+		   ========================================================================== */
+				@import "woocommerce";
+
+
+
+
+
+
+		/*!==========================================================================
+		   Page
+		   ========================================================================== */
+				@import "page";
+
+
+
+
+
+
+		/*!==========================================================================
+		   Shop
+		   ========================================================================== */
+				@import "shop";
+
+
+
+
+
+
+		/*!==========================================================================
+		   Flex Slider
+		   ========================================================================== */
+				@import "flexSlider";
+
+
+
+
+
+
+		/*!==========================================================================
+		   Team
+		   ========================================================================== */
+				@import "team";
